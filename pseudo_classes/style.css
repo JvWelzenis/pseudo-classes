@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.link-hover:hover {
+    color: lightblue;
+    font-weight: bold;
+}
+
+.link-active:active {
+    color: red;
+    font-style: italic;
+}
+
+/* als je de muis ingedrukt laat blijft de link actief (rood en schuin). */
+
+.link-visited:visited {
+    color: yellow;
+}
+
+.text-focus:focus {
+    color: green;
+    font-size: 20px;
+}
+
+li {
+    display: inline;
+    padding-right: 20px;
+}
+
+nav {
+    background-color: darkblue;
+}
+
+.currentPage {
+    background-color: grey;
+}
+
+.hover:hover {
+    background-color: lightblue;
+}
+
+.searche:focus {
+     border: 1px solid aquamarine;
+}
